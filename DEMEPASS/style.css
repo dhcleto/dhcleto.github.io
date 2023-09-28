@@ -1,0 +1,80 @@
+/* Definir um estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+img {
+    max-width: 200%;
+    height: auto; 
+}
+
+.hero {
+    background-image: url('img/i\ cando\ all\ thingsuer.png'); 
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Estilo para as seções de conteúdo */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+/* Estilo para os botões */
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o formulário de contato */
+.form-group label {
+    font-weight: bold;
+}
+
